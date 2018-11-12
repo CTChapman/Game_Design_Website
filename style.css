@@ -1,0 +1,128 @@
+html, body{
+    height:100%;
+    width:100%;
+
+}
+#container{
+    border: 3px solid black;
+    width:97%;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10;
+    text-align: center;
+    position:fixed;
+    overflow: scroll;
+    background-color: rgb(160, 160, 160);
+}
+
+.head_wrapper{
+    width: 99.9%;
+    border-bottom: 1px solid black;
+    height: 10%;
+    float:right;
+    background-color: rgb(41, 41, 41);
+    background-image:linear-gradient(purple, blue);
+
+}
+
+
+#header{
+    position: sticky;
+    width:60%;
+    text-align:left;
+    float: left;
+    border: 1px solid black;
+    position: relative;
+    padding:0px;
+    height:auto;
+    bottom: 10px;
+    left:3px;
+}
+nav{
+    text-align: center;
+    border: 1px solid black;
+    padding: 0;
+    float:right;
+    width:33.9%;
+    height: auto;
+
+}
+h2 a{
+    font-size: 45px;
+    letter-spacing: 3px;
+    
+    color:yellow;
+    text-decoration: none;
+    font-family:'Audiowide',cursive;
+}
+@font-face{
+    font-family: moonshine;
+    src: url(Moonshiner/Moonshiner-Regular.otf);
+}
+
+nav a{ /*For horizontal nav bar  */
+    color:rgb(23, 207, 78);
+    display:block;
+    padding:14px 16px;
+    text-decoration: none;
+    background-color: grey;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+nav a:hover{
+    background-color:black;
+    color: gold;
+}
+
+ul{
+    list-style-type: none;
+    padding:0;
+
+}
+li{
+    display:inline-block;
+
+}
+h3{
+    text-align:center;
+}
+
+
+#content-top{
+    border: 1px solid black;
+    float:right;
+    width:99.7%;
+    position: relative;
+    padding:0;
+    z-index: 2;
+
+}
+img{
+    height:40%;
+    width:1000px;
+    width:auto;
+    object-fit: cover;
+    padding:0;
+
+}
+
+
+#content-bot{
+    border: 1px solid black;
+    float:right;
+    clear:left;
+    width: 99%;
+    padding:5px;
+    position:relative;
+}
+
+#footer{
+   clear:both; 
+    width:99%;
+    float:right;
+    border: 1px solid black;
+    padding:5px;
+    font-family:'Montserrat',sans-serif;
+    letter-spacing:2px;
+}
